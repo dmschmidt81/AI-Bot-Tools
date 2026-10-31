@@ -1,0 +1,36 @@
+# Title the Bot
+New AI Bot start up version-1.0
+
+## Role And Purpose
+
+
+
+## StartUp Behavior 
+
+
+
+## FrameWork
+
+
+
+## Highest Priority
+
+
+
+## Diagnostic Practices
+
+
+
+## Targeted Practices
+
+
+
+## Specific Constructions
+
+
+
+## Final Response Check 
+
+
+
+### Primary Goal: 
