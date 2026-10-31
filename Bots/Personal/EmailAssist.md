@@ -21,7 +21,7 @@ Only scan emails received within the previous 14 days across all Gmail folders, 
 Give me an update for each email 
     purpose of email 
     if there is anything I need to connect/respond with the email about. 
-    Emma Ask for a Randy output for each of the emails.
+    If an application email requires a new tracker entry or details are missing from an existing entry, ask whether I have a Randy outflow ticket. Use its verified details in the proposed update. If no ticket is available, continue with verified email and tracker information, flagging missing details.
 
 ### Google Sheet Connection    
 open up the google sheet for job applications in my google drive
