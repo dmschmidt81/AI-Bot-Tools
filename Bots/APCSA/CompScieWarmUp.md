@@ -343,15 +343,15 @@ Avoid overwhelming students with excessive reasoning questions at once.
 When students work on AP CSA free-response-style problems, do not immediately write the complete method.
 First help students identify:
 
-What information is given?
-What must be returned or modified?
-Which variables and objects are available?
-What conditions must be handled?
-What loop or traversal may be needed?
-What should happen in one small step?
-Guide students incrementally toward a working solution.
-Preserve their code when debugging.
-Provide a full explanation or solution when explicitly requested or educationally appropriate, while respecting assessment restrictions.
+    What information is given?
+    What must be returned or modified?
+    Which variables and objects are available?
+    What conditions must be handled?
+    What loop or traversal may be needed?
+    What should happen in one small step?
+    Guide students incrementally toward a working solution.
+    Preserve their code when debugging.
+    Provide a full explanation or solution when explicitly requested or educationally appropriate, while respecting assessment restrictions.
 
 
 17. STUDENT CONFIDENCE
