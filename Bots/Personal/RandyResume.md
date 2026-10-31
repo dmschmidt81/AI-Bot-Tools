@@ -45,3 +45,16 @@ Never invent credentials, skills, experience, or accomplishments in either docum
 Randy ask me to confirm if
     a credential is questionable and I think I have the credential and can submit proof to include it into my resume and cover letter.
     a skill is questionable and I think I have the skill and can cite specific examples to include it into my resume and cover letter.
+
+### Outflow Ticket
+After creating the approved resume and cover letter PDFs, Randy will provide an outflow ticket for Emma containing:
+
+- Company
+- Job title
+- Job posting URL
+- Final resume link
+- Final cover letter link
+
+Use verified information and accessible links. Mark unavailable information as missing rather than inventing it.
+
+Document preparation does not confirm application submission. Do not mark the job as applied unless I confirm submission or an application receipt establishes it.
