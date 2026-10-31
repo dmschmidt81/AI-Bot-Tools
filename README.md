@@ -1,24 +1,24 @@
-﻿# AI Bot Tools
+# AI Bot Tools
 
-This repository contains a growing collection of AI-powered educational and administrative tools designed to support teaching, student learning, test preparation, and school workflow.
+This repository contains a growing collection of AI-powered educational, administrative, and personal workflow tools designed to solve specific problems with structured roles, rules, approvals, and task-focused behavior.
 
-The project focuses on building structured AI assistants with clear roles, constraints, instructional behavior, and task-specific workflows.
+Rather than using AI as a general-purpose chatbot, this project explores how carefully designed assistants can support teaching, student learning, test preparation, communication, and repeatable professional workflows.
 
 ## Purpose
 
-The goal of this project is to explore how AI can be designed as a practical educational tool rather than simply used as a general-purpose chatbot.
-
-Each bot is built around a specific use case and includes instructions that define:
+Each bot is built around a defined use case and includes instructions that control:
 
 - Role and purpose
 - Expected behavior
 - Boundaries and limitations
-- Instructional workflow
+- Workflow sequence
+- Approval points
+- Source verification
 - Student interaction rules
-- Source-of-truth requirements
 - Output expectations
+- Handoffs between tools
 
-The emphasis is on creating tools that support thinking, learning, and decision-making rather than replacing them.
+The goal is to make AI behavior more predictable, useful, and accountable.
 
 ## Current Tools
 
@@ -26,35 +26,34 @@ The emphasis is on creating tools that support thinking, learning, and decision-
 
 Tools designed to support Java programming instruction and AP Computer Science A coursework.
 
-Current work includes:
-
-- `ApcsaTestPrep.txt` — AP Computer Science A test-preparation assistant
-- `CompScieWarmUp.txt` — Computer science warm-up and skill-development assistant
-- `HomeworkHelper.txt` — CodeHS AP CSA homework coach designed to guide students through assignments without completing the work for them
+- `ApCsaTestPrep.md` — AP Computer Science A test-preparation assistant
+- `CompScieWarmUp.md` — Computer science warm-up and skill-development assistant
+- `HomeworkHelper.md` — AP CSA homework coach designed to guide students through assignments without simply completing the work for them
 
 ### AP Test Prep
 
-Tools designed around structured AP course preparation and feedback.
+Tools designed around structured AP course preparation, reasoning, and feedback.
 
-Current work includes:
-
-- `ApStatsTestPrep.txt` — AP Statistics test-preparation assistant focused on reasoning, scoring, and College Board-style expectations
+- `ApStatsTestPrep.md` — AP Statistics test-preparation assistant focused on reasoning, scoring, and AP-style expectations
 
 ### Administrative Tools
 
 Tools designed to support school communication and administrative workflows.
 
-Current work includes:
+- `C3comm.md` — Assistant for organizing and drafting C3 staff communications using defined procedures and exceptions
 
-- `C3comm.txt` — Assistant for creating and organizing C3 staff communications
+### Personal Workflow Tools
+
+Tools designed to support repeatable professional and career workflows.
+
+- `RandyResume.md` — Resume and cover-letter workflow that verifies sources, prevents unsupported claims, requires approval before document creation, and produces a structured handoff for job tracking
+- `EmailAssist.md` — Email workflow that reviews job-related messages, connects them to a job tracker, proposes updates, requires approval before changes, and protects against outdated status information overwriting newer information
 
 ### Shared AI Template
 
-- `AiTemplate.txt` — Reusable foundation for building additional AI assistants with consistent structure and behavior
+- `AiTemplate.md` — Reusable starting structure for building additional AI assistants with consistent roles, workflows, and boundaries
 
 ## Design Philosophy
-
-These tools are built around several principles:
 
 ### Support Thinking Instead of Replacing It
 
@@ -70,17 +69,21 @@ not:
 
 ### Use Clear Roles and Constraints
 
-Each assistant is given a specific purpose instead of being expected to handle every possible task.
+Each assistant is designed for a specific responsibility rather than being expected to handle every possible task.
 
-Clear constraints help produce more predictable and useful behavior.
+Clear constraints make behavior easier to test, refine, and trust.
 
-### Treat Source Material as the Source of Truth
+### Verify Before Acting
 
-When assignments, rubrics, course materials, or institutional rules are provided, the assistant should rely on those materials rather than inventing missing requirements.
+Where accuracy matters, assistants are instructed to distinguish verified information from assumptions and missing information.
 
-### Build Reusable Systems
+Several workflows include explicit approval gates before changing data, creating final documents, or taking follow-up actions.
 
-Where possible, common AI design patterns are separated into reusable templates so future tools can be developed more consistently.
+### Build Reusable Workflows
+
+Common design patterns are separated into reusable structures so new assistants can be developed more consistently.
+
+Some tools are also designed to hand verified information to another tool, creating a larger workflow rather than a collection of isolated prompts.
 
 ## Project Structure
 
@@ -89,17 +92,21 @@ AI-Bot-Tools
 │
 ├── Bots
 │   ├── APCSA
-│   │   ├── ApcsaTestPrep.txt
-│   │   ├── CompScieWarmUp.txt
-│   │   └── HomeworkHelper.txt
+│   │   ├── ApCsaTestPrep.md
+│   │   ├── CompScieWarmUp.md
+│   │   └── HomeworkHelper.md
 │   │
 │   ├── APTestPrep
-│   │   └── ApStatsTestPrep.txt
+│   │   └── ApStatsTestPrep.md
 │   │
 │   ├── Admin
-│   │   └── C3comm.txt
+│   │   └── C3comm.md
 │   │
-│   └── AiTemplate.txt
+│   ├── Personal
+│   │   ├── EmailAssist.md
+│   │   └── RandyResume.md
+│   │
+│   └── AiTemplate.md
 │
 └── README.md
 ```
@@ -108,14 +115,16 @@ AI-Bot-Tools
 
 This project reflects work in:
 
-- AI prompt and instruction design
+- AI instruction and prompt design
 - Requirements analysis
-- Workflow design
+- Workflow and system design
+- Approval and verification logic
 - Educational technology
 - Instructional design
 - Structured problem solving
 - Java and AP Computer Science A curriculum support
 - AI-assisted administrative workflows
+- Career workflow automation design
 - Iterative testing and refinement
 - Git and GitHub version control
 
@@ -123,10 +132,10 @@ This project reflects work in:
 
 This repository is an active work in progress.
 
-I am continuing to refine the structure of the assistants, test their behavior, improve reusable templates, and expand the collection into additional educational and administrative use cases.
+I am continuing to refine the assistants, improve reusable design patterns, test workflow behavior, and expand the project into additional educational, administrative, and professional use cases.
 
 ## Background
 
 I am a high school computer science and technology educator with a previous background in mathematics education who is transitioning toward professional software development.
 
-This project combines my experience in education, curriculum design, computer science, and AI experimentation while giving me a structured environment for developing and documenting practical AI systems.
+This project combines my experience in education, curriculum design, computer science, AI experimentation, and workflow design while giving me a structured environment for developing and documenting practical AI systems.
