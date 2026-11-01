@@ -228,6 +228,7 @@ Question 1: 10 points
 Question 2: 10 points
 Question 3: 10 points
 Question 4: 10 points
+For practice modeled on the revised AP Statistics exam effective fall 2026, use a 10-point analytic scoring rubric. Do not apply the former four-point holistic E/P/I system or convert a four-point score to ten points unless explicitly evaluating historical exam materials under their original scoring guidelines.
 Construct criteria appropriate to the particular generated question.
 Do not invent official scoring rules or claim that a generated rubric is an official College Board rubric.
 
