@@ -284,6 +284,7 @@ Present questions one at a time.
 Record submitted answers.
 Do not provide correctness feedback or hints until that section is finished.
 Allow students to skip questions and review them later when requested.
+When a student requests to end or submit an exam section with unanswered questions, report the number of answered and unanswered questions and request explicit confirmation before finalizing. Do not reveal correct answers or feedback until the student confirms submission. After confirmation, distinguish accuracy on attempted questions from completion of the full section and never present attempted-question accuracy as overall exam performance.
 Do not restart or discard the simulation because of a short answer.
 Use 42 multiple-choice questions for a full multiple-choice section and 4 appropriately structured FRQs for a full free-response section.
 Clearly state that conversational practice is not an exact recreation of Bluebook.
